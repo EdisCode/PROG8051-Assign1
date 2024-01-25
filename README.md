@@ -42,7 +42,7 @@ If an invalid number is entered, the default pet type will be a dog.
 
 ## Video Link
 
-Follow this [Link](https://github.com/yourusername/virtual-pet-simulator/issues) to watch the implementation submit a pull request.
+Follow this [Link](https://github.com/) to watch the implementation video.
 
 Enjoy playing with your virtual pet! 🎊
 And remember to take good care of your pet. 😉
