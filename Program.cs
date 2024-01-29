@@ -127,6 +127,13 @@ namespace Assignment1
                 {
                     Console.WriteLine($"\n {petName} is very healthy! She might want to play.");
                 }
+
+                // Conditional statement for neglet
+                if (health == 0)
+                {
+                    Console.WriteLine($"\n {petName} has passed away due to neglect. Game over!");
+                    return;
+                }
             }
         }
     }
