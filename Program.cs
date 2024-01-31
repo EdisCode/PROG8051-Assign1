@@ -77,7 +77,7 @@ namespace Assignment1
                         break;
 
                     case "3":
-                        Console.WriteLine($"\n {petName} is resting. Resting improves health and decreases happiness slightly.");
+                        Console.WriteLine($"\n {petName} is resting. Resting improves health and slightly decreases happiness.");
                         health = Math.Min(10, health + 2);
                         happiness = Math.Max(0, happiness - 1);
                         break;
@@ -91,6 +91,7 @@ namespace Assignment1
 
                     case "5":
                         Console.WriteLine("\n Thank you for playing!");
+                        Console.ReadKey(); // To stop console window from closing immediately (wait for key press)
                         return;
 
                     default:
@@ -132,6 +133,7 @@ namespace Assignment1
                 if (health == 0)
                 {
                     Console.WriteLine($"\n {petName} has passed away due to neglect. Game over!");
+                    Console.ReadKey();
                     return;
                 }
             }
